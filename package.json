@@ -1,0 +1,17 @@
+{
+  "name": "dev_php_boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tw": "pnpx @tailwindcss/cli -i tailwind.css -o public/styles.css -w"
+  },
+  "keywords": ["boilerplate","php","alpinejs","tailwindcss"],
+  "author": "agarciadelrio@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.10",
+    "alpinejs": "^3.14.9",
+    "tailwindcss": "^4.1.10"
+  }
+}

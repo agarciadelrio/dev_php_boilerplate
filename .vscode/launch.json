@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Listen for Xdebug",
+            "type": "php",
+            "request": "launch",
+            "preLaunchTask": "Update .env for Xdebug", // Ejecuta la tarea antes de lanzar
+            "port": 9004
+        }
+    ]
+}
